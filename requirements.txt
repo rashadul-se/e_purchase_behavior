@@ -1,8 +1,11 @@
+# Python 3.12 Compatible Requirements
+# Optimized for Streamlit Cloud deployment
+
 # Core Web Framework
 streamlit>=1.28.0
 
 # Data Processing & Analysis
-pandas>=2.0.0
+pandas>=2.1.0
 numpy>=1.26.0
 
 # Machine Learning
@@ -11,10 +14,7 @@ scikit-learn>=1.3.0
 # Data Visualization
 plotly>=5.17.0
 
-# Big Data Processing (Optional - for Apache Spark support)
-# Commented out by default - uncomment if you need Spark
-pyspark>=3.4.0
+# Optional: Apache Spark (uncomment if needed)
+# Note: PySpark works with Python 3.12 but may have some limitations
+pyspark>=3.5.0
 pyarrow>=13.0.0
-
-# Note: For Python 3.12+ compatibility, all versions use >= instead of ==
-# SQLite3 is built-in with Python, no installation needed
